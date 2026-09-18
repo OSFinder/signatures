@@ -1,4 +1,4 @@
-# Chinese (Traditional, Taiwan) translations for PROJECT.
+# Chinese (Simplified, Macao) translations for PROJECT.
 # Copyright (C) 2026 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.

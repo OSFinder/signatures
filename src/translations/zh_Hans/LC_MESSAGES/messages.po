@@ -1,19 +1,18 @@
-# SPDX-License-Identifier: AGPL-3.0-or-later
-# coding: utf-8
-# English translations for signatures.
-# Copyright (C) 2020 AntiCompositeNumber
-# This file is distributed under the AGPL v3.0 or any later version.
+# Chinese (Simplified) translations for PROJECT.
+# Copyright (C) 2026 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2026-09-18 12:06+0000\n"
-"PO-Revision-Date: 2020-03-13 21:53-0400\n"
-"Last-Translator: AntiCompositeNumber\n"
-"Language: en\n"
-"Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"PO-Revision-Date: 2026-09-18 10:52+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_Hans\n"
+"Language-Team: zh_Hans <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,319 +20,297 @@ msgstr ""
 
 #: datatypes.py:86
 msgid "html5-misnesting"
-msgstr "Misnested tag with different rendering in HTML5 and HTML4"
+msgstr "HTML5 与 HTML4 渲染不同的错误嵌套标签"
 
 #: datatypes.py:86
 msgid "html5-misnesting-help"
 msgstr ""
-"Tags should be closed in the reverse order they were opened "
-"(&ltb&gt&lti&gtFoo&lt/i&gt&lt/b&gt not "
-"&ltb&gt&lti&gtFoo&lt/b&gt&lt/i&gt)."
+"标签应按打开顺序的相反顺序关闭（&ltb&gt&lti&gtFoo&lt/i&gt&lt/b&gt，而不是 "
+"&ltb&gt&lti&gtFoo&lt/b&gt&lt/i&gt）。"
 
 #: datatypes.py:88
 msgid "misc-tidy-replacement-issues"
-msgstr "Miscellaneous issues"
+msgstr "其他问题"
 
 #: datatypes.py:89
 msgid "misc-tidy-replacement-issues-help"
-msgstr "Check the Linter documentation for advice"
+msgstr "请参阅 Linter 文档获取建议"
 
 #: datatypes.py:92
 msgid "misnested-tag"
-msgstr "Misnested tag"
+msgstr "错误嵌套标签"
 
 #: datatypes.py:92
 msgid "misnested-tag-help"
 msgstr ""
-"Tags should be closed in the reverse order they were opened "
-"(&ltb&gt&lti&gtFoo&lt/i&gt&lt/b&gt not "
-"&ltb&gt&lti&gtFoo&lt/b&gt&lt/i&gt)."
+"标签应按打开顺序的相反顺序关闭（&ltb&gt&lti&gtFoo&lt/i&gt&lt/b&gt，而不是 "
+"&ltb&gt&lti&gtFoo&lt/b&gt&lt/i&gt）。"
 
 #: datatypes.py:93
 msgid "missing-end-tag"
-msgstr "Missing end tag"
+msgstr "缺少结束标签"
 
 #: datatypes.py:93
 msgid "missing-end-tag-help"
-msgstr ""
-"Make sure that all tags that are opened are closed in the same way "
-"('''Foo''' not &lti&gtFoo''' or &lti&gtFoo)"
+msgstr "请确保所有打开的标签都以相同方式关闭（'''Foo'''，而不是 &lti&gtFoo''' 或 &lti&gtFoo）"
 
 #: datatypes.py:95
 msgid "multiple-unclosed-formatting-tags"
-msgstr "Multiple unclosed formatting tags"
+msgstr "多个未关闭的格式标签"
 
 #: datatypes.py:96
 msgid "multiple-unclosed-formatting-tags-help"
-msgstr ""
-"Make sure that all tags that are opened are closed in the same way "
-"('''Foo''' not &lti&gtFoo''' or &lti&gtFoo)"
+msgstr "请确保所有打开的标签都以相同方式关闭（'''Foo'''，而不是 &lti&gtFoo''' 或 &lti&gtFoo）"
 
 #: datatypes.py:99
 msgid "obsolete-tag"
-msgstr "Obsolete HTML tags"
+msgstr "过时的 HTML 标签"
 
 #: datatypes.py:99
 msgid "obsolete-tag-help"
-msgstr "See the Linter documentation for more information."
+msgstr "详情请参阅 Linter 文档。"
 
 #: datatypes.py:101
 msgid "obsolete-font-tag"
-msgstr "Obsolete font tag"
+msgstr "过时的 font 标签"
 
 #: datatypes.py:102
 msgid "obsolete-font-tag-help"
-msgstr "The &ltfont&gt tag has been deprecated in HTML5 and should be replaced"
+msgstr "&ltfont&gt 标签已在 HTML5 中弃用，应替换为其他方式。"
 
 #: datatypes.py:105
 msgid "self-closed-tag"
-msgstr "Self-closed tag"
+msgstr "自闭合标签"
 
 #: datatypes.py:105
 msgid "self-closed-tag-help"
-msgstr "See the Linter documentation for more information"
+msgstr "详情请参阅 Linter 文档。"
 
 #: datatypes.py:106
 msgid "stripped-tag"
-msgstr "Stripped tag"
+msgstr "被移除的标签"
 
 #: datatypes.py:106
 msgid "stripped-tag-help"
-msgstr "See the Linter documentation for more information"
+msgstr "详情请参阅 Linter 文档。"
 
 #: datatypes.py:107
 msgid "tidy-font-bug"
-msgstr "Tidy font bug"
+msgstr "Tidy 字体错误"
 
 #: datatypes.py:107
 msgid "tidy-font-bug-help"
-msgstr "See the Linter documentation for more information"
+msgstr "详情请参阅 Linter 文档。"
 
 #: datatypes.py:109
 msgid "tidy-whitespace-bug"
-msgstr "Whitespace parsing bug"
+msgstr "空白解析错误"
 
 #: datatypes.py:110
 msgid "tidy-whitespace-bug-help"
-msgstr "See the Linter documentation for more information"
+msgstr "详情请参阅 Linter 文档。"
 
 #: datatypes.py:114
 msgid "wikilink-in-extlink"
-msgstr "Wikilink in external link"
+msgstr "外部链接中的 Wiki 链接"
 
 #: datatypes.py:115
 msgid "wikilink-in-extlink-help"
-msgstr "External link labels can not contain wikilinks"
+msgstr "外部链接标签不能包含 wikilink"
 
 #: datatypes.py:119
 msgid "lint/multi-colon-escape"
-msgstr "Multiple colons escape wikilink"
+msgstr "多个冒号转义 wikilink"
 
 #: datatypes.py:120
 msgid "lint/multi-colon-escape-help"
-msgstr "Wikilinks must start with no more than one colon."
+msgstr "Wikilink 开头不能超过一个冒号。"
 
 #: datatypes.py:124
 msgid "inline-media-caption"
-msgstr "Caption in inline media"
+msgstr "行内媒体中的说明文字"
 
 #: datatypes.py:125
 msgid "inline-media-caption-help"
 msgstr ""
-"Captions are not supported in inline media (like "
-"[[File:Foo.jpg|Caption]]). Use [[File:Foo.jpg|alt=Caption]] instead, or "
-"remove media from your signature."
+"行内媒体（例如 [[File:Foo.jpg|Caption]]）不支持说明文字。请改用 "
+"[[File:Foo.jpg|alt=Caption]]，或从签名中移除媒体。"
 
 #: datatypes.py:129
 msgid "bogus-image-options"
-msgstr "Embedded image contains invalid options"
+msgstr "嵌入的图片包含无效选项"
 
 #: datatypes.py:130
 msgid "bogus-image-options-help"
-msgstr "Check the syntax of any images in your signature or remove them."
+msgstr "请检查签名中图片的语法，或将其移除。"
 
 #: datatypes.py:134
 msgid "night-mode-unaware-background-color"
-msgstr ""
-"Background color inline style rule exists without a corresponding text "
-"color"
+msgstr "存在背景色行内样式规则，但没有相应的文字颜色"
 
 #: datatypes.py:135
 msgid "night-mode-unaware-background-color-help"
-msgstr "Add a color: rule to parts of your signature with a background color."
+msgstr "请为签名中带有背景色的部分添加 color: 规则。"
 
 #: datatypes.py:141
 msgid "interwiki-user-link"
-msgstr "Interwiki user link"
+msgstr "跨 Wiki 用户链接"
 
 #: datatypes.py:142
 msgid "interwiki-user-link-help"
-msgstr ""
-"The only link in this signature appears to be an interwiki link. "
-"Signatures should contain a wikilink to the user's local user page, user "
-"talk page, or contributions. "
+msgstr "此签名中唯一的链接似乎是跨 Wiki 链接。签名应包含指向用户本地用户页、讨论页或贡献页的 wikilink。"
 
 #: datatypes.py:146
 msgid "link-username-mismatch"
-msgstr "Mismatch between link and username"
+msgstr "链接与用户名不匹配"
 
 #: datatypes.py:147
 msgid "link-username-mismatch-help"
-msgstr ""
-"The signature contains at least one link to a user page, talk page, or "
-"contributions, but they don't match the username"
+msgstr "签名至少包含一个指向用户页、讨论页或贡献页的链接，但这些链接与用户名不匹配。"
 
 #: datatypes.py:150
 msgid "nested-subst"
-msgstr "Nested substitution"
+msgstr "嵌套替换"
 
 #: datatypes.py:150
 msgid "nested-subst-help"
-msgstr ""
-"Signatures should not contain markup that could transform into someone "
-"else's signature."
+msgstr "签名不应包含可能转换为其他人签名的标记。"
 
 #: datatypes.py:152
 msgid "complex-template"
-msgstr "Complex template markup"
+msgstr "复杂模板标记"
 
 #: datatypes.py:153
 msgid "complex-template-help"
-msgstr ""
-"This signature contains complex markup that caused it to change for each "
-"of five substitutions."
+msgstr "此签名包含复杂标记，导致五次替换后的结果各不相同。"
 
 #: datatypes.py:156
 msgid "no-user-links"
-msgstr "No user links"
+msgstr "没有用户链接"
 
 #: datatypes.py:156
 msgid "no-user-links-help"
-msgstr ""
-"Signatures should contain a wikilink to the user's local user page, user "
-"talk page, or contributions."
+msgstr "签名应包含指向用户本地用户页、讨论页或贡献页的 wikilink。"
 
 #: datatypes.py:157
 msgid "plain-fancy-sig"
-msgstr "Plain fancy signature"
+msgstr "纯文本花式签名"
 
 #: datatypes.py:157
 msgid "plain-fancy-sig-help"
-msgstr ""
-"The \"Treat the above as wiki markup\" box was ticked, but this signature"
-" doesn't contain any markup."
+msgstr "勾选了“将上述内容视为 wiki 标记”选项，但此签名不包含任何标记。"
 
 #: datatypes.py:158
 msgid "sig-too-long"
-msgstr "Signature too long"
+msgstr "签名过长"
 
 #: datatypes.py:158
 msgid "sig-too-long-help"
-msgstr "Signatures must contain less than 255 bytes of wikitext."
+msgstr "签名中的 wikitext 必须少于 255 个字节。"
 
 #: datatypes.py:161
 msgid "images-in-sig"
-msgstr ""
+msgstr "签名中包含图片"
 
 #: datatypes.py:161
 msgid "images-in-sig-help"
-msgstr ""
+msgstr "签名不应包含图片。"
 
 #: datatypes.py:163
 msgid "transcluded-templates"
-msgstr ""
+msgstr "转入模板"
 
 #: datatypes.py:164
 msgid "transcluded-templates-help"
-msgstr ""
+msgstr "签名不应包含转入模板，因为模板可能导致内容发生变化。"
 
 #: datatypes.py:168
 msgid "sig-too-long-post-subst"
-msgstr ""
+msgstr "替换后签名过长"
 
 #: datatypes.py:169
 msgid "sig-too-long-post-subst-help"
-msgstr ""
+msgstr "替换后的签名必须少于 255 个字节。"
 
 #: datatypes.py:173
 msgid "link-name-impersonation"
-msgstr ""
+msgstr "链接名称冒充"
 
 #: datatypes.py:174
 msgid "link-name-impersonation-help"
-msgstr ""
+msgstr "链接文字或链接名称看起来像是在冒充其他用户。"
 
 #: datatypes.py:177
 msgid "unescaped-pipes"
-msgstr ""
+msgstr "未转义的管道符"
 
 #: datatypes.py:177
 msgid "unescaped-pipes-help"
-msgstr ""
+msgstr "签名中的 | 必须在链接和模板中正确转义。"
 
 #: datatypes.py:178
 msgid "external-links"
-msgstr ""
+msgstr "外部链接"
 
 #: datatypes.py:178
 msgid "external-links-help"
-msgstr ""
+msgstr "签名不应包含外部链接。"
 
 #: datatypes.py:179
 msgid "line-breaks"
-msgstr "Line breaks"
+msgstr "换行"
 
 #: datatypes.py:179
 msgid "line-breaks-help"
-msgstr "Signatures should not contain any line breaks."
+msgstr "签名不应包含任何换行。"
 
 #: datatypes.py:180
 msgid "horizontal-rule"
-msgstr ""
+msgstr "水平分隔线"
 
 #: datatypes.py:180
 msgid "horizontal-rule-help"
-msgstr ""
+msgstr "签名不应包含分隔线。"
 
 #: datatypes.py:184
 msgid "default-sig"
-msgstr "Default signature"
+msgstr "默认签名"
 
 #: datatypes.py:184
 msgid "default-sig-help"
-msgstr "No custom signature has been set for this user."
+msgstr "此用户尚未设置自定义签名。"
 
 #: datatypes.py:185
 msgid "no-errors"
-msgstr "No errors"
+msgstr "没有错误"
 
 #: datatypes.py:185
 msgid "no-errors-help"
-msgstr "No problems were detected with this signature."
+msgstr "此签名未检测到任何问题。"
 
 #: datatypes.py:186
 msgid "sig-not-fancy"
-msgstr "Non-fancy signature"
+msgstr "非花式签名"
 
 #: datatypes.py:186
 msgid "sig-not-fancy-help"
-msgstr "This signature is only a nickname, and is not interpreted as wikitext."
+msgstr "此签名只是昵称，不会被解释为 wikitext。"
 
 #: datatypes.py:187
 msgid "user-does-not-exist"
-msgstr "User does not exist"
+msgstr "用户不存在"
 
 #: datatypes.py:187
 msgid "user-does-not-exist-help"
-msgstr "The provided username does not exist on this wiki."
+msgstr "提供的用户名在此 Wiki 上不存在。"
 
 #: templates/about.html:4 templates/layout.html:34
 msgid "About"
-msgstr "About"
+msgstr "关于"
 
 #: templates/about.html:5
 msgid "What is this?"
-msgstr "What is this?"
+msgstr "这是什么？"
 
 #: templates/about.html:7
 msgid ""
@@ -341,13 +318,12 @@ msgid ""
 "custom user signatures. It was written in Python by "
 "User:AntiCompositeNumber."
 msgstr ""
-"This tool, called Signatures, is designed to find technical issues in "
-"custom user signatures. It was written in Python by "
-"User:AntiCompositeNumber."
+"这个名为 Signatures 的工具用于发现自定义用户签名中的技术问题。它由 User:AntiCompositeNumber 使用 "
+"Python 编写。"
 
 #: templates/about.html:12
 msgid "Why does this exist?"
-msgstr "Why does this exist?"
+msgstr "为什么会有这个工具？"
 
 #: templates/about.html:14
 #, python-format
@@ -359,81 +335,70 @@ msgid ""
 "%(proposal)sproposal%(close)s was created for technical requirements that"
 " would fix these issues."
 msgstr ""
-"MediaWiki has never imposed technical restrictions on fancy signatures "
-"other than maximum length. This allowed editors to create complex "
-"signatures that are hard for machines to parse. Complex signatures "
-"sometimes contained mistakes that would affect other text. A "
-"%(proposal)sproposal%(close)s was created for technical requirements that"
-" would fix these issues."
+"MediaWiki 除了长度上限外，从未对花式签名施加技术限制。这使编辑者能够创建 "
+"难以由机器解析的复杂签名。复杂签名有时会包含影响其他文本的错误。因此有人 "
+"提出了%(proposal)s技术要求提案%(close)s，以修复这些问题。"
 
 #: templates/about.html:27
 msgid ""
 "This tool was created as a result of that proposal so that editors "
 "discussing the proposal could make informed comments. It may also be "
 "useful in notifying users about their problematic signatures."
-msgstr ""
-"This tool was created as a result of that proposal so that editors "
-"discussing the proposal could make informed comments. It may also be "
-"useful in notifying users about their problematic signatures."
+msgstr "这个工具就是因该提案而创建的，让讨论该提案的编辑者能够提出有依据的意见。它 也可以用于通知用户其签名存在问题。"
 
 #: templates/about.html:33
 msgid "What problems are detected?"
-msgstr "What problems are detected?"
+msgstr "会检测哪些问题？"
 
 #: templates/about.html:35
 msgid ""
 "As this tool was built to collect data about the proposed new "
 "requirements, it checks for signatures that would violate those "
 "requirements."
-msgstr ""
-"As this tool was built to collect data about the proposed new "
-"requirements, it checks for signatures that would violate those "
-"requirements."
+msgstr "由于这个工具用于收集有关拟议新要求的数据，因此它会检查签名是否违反这些要求。"
 
 #: templates/about.html:40
 msgid "The following problems are detected:"
-msgstr "The following problems are detected:"
+msgstr "会检测以下问题："
 
 #: templates/about.html:43
 #, python-format
 msgid "Any %(lintopen)sLint errors%(close)s"
-msgstr "Any %(lintopen)sLint errors%(close)s"
+msgstr "任何 %(lintopen)sLint 错误%(close)s"
 
 #: templates/about.html:51
 msgid ""
 "Missing or invalid links to user, user talk, and contributions pages, "
 "including signatures with"
-msgstr ""
-"Missing or invalid links to user, user talk, and contributions pages, "
-"including signatures with"
+msgstr "缺少或无效的用户页、用户讨论页和贡献页链接，包括以下签名："
 
 #: templates/about.html:56
 msgid "No user links at all"
-msgstr "No user links at all"
+msgstr "完全没有用户链接"
 
 #: templates/about.html:58
 msgid "Only links to the user, user talk, or contributions page of someone else"
-msgstr "Only links to the user, user talk, or contributions page of someone else"
+msgstr "只有指向其他用户的用户页、讨论页或贡献页的链接"
 
 #: templates/about.html:63
 msgid "Only links to a user page on another wiki"
-msgstr "Only links to a user page on another wiki"
+msgstr "只有指向其他 Wiki 上用户页的链接"
 
 #: templates/about.html:66
 msgid "Fancy signatures without any formatting"
-msgstr "Fancy signatures without any formatting"
+msgstr "没有任何格式的花式签名"
 
 #: templates/about.html:68
 msgid "Signatures longer than 255 characters (before substitution)"
-msgstr "Signatures longer than 255 characters (before substitution)"
+msgstr "超过 255 个字符的签名（替换前）"
 
 #: templates/about.html:72
 msgid "Signatures that change when the page is saved again"
-msgstr "Signatures that change when the page is saved again"
+msgstr "再次保存页面后会发生变化的签名"
 
 #: templates/about.html:75
 msgid "My signature works fine, why did the tool find problems?"
-msgstr "My signature works fine, why did the tool find problems?"
+msgstr "我的签名运行正常，为什么工具还会发现问题？"
 
 #: templates/about.html:78
 msgid ""
@@ -443,11 +408,8 @@ msgid ""
 "the wikitext rendering system. There is no way to guarentee that these "
 "lint errors will continue to work over time."
 msgstr ""
-"Some lint errors reported by the tool may not currently affect the "
-"rendered output of the page. Some are deprecated tags that may not be "
-"supported by browsers in the future, while others are silently fixed by "
-"the wikitext rendering system. There is no way to guarentee that these "
-"lint errors will continue to work over time."
+"工具报告的某些 Lint 错误目前可能不会影响页面的渲染结果。有些是已弃用的标签， 未来可能不再受浏览器支持；另一些则会被 wikitext "
+"渲染系统静默修复。无法保证 这些 Lint 错误今后仍能正常工作。"
 
 #: templates/about.html:87
 msgid ""
@@ -457,11 +419,8 @@ msgid ""
 "not fixed, tools, scripts, and bots may not work correctly with your "
 "signature."
 msgstr ""
-"Other reported errors are a result of requirements that don't target the "
-"rendered version of a page. These requirements are designed to make it "
-"easier for machines to find and parse signatures. If these problems are "
-"not fixed, tools, scripts, and bots may not work correctly with your "
-"signature."
+"其他报告的错误源于一些并非针对页面渲染版本的要求。这些要求旨在让机器更容易 "
+"找到并解析签名。如果不修复这些问题，工具、脚本和机器人可能无法正确处理你的签名。"
 
 #: templates/about.html:95
 #, python-format
@@ -470,13 +429,12 @@ msgid ""
 "code. You should report these bugs to AntiCompositeNumber on "
 "%(talkopen)stheir talk page%(close)s or on %(ghopen)sGitHub%(close)s."
 msgstr ""
-"Some reported issues are false positives caused by bugs in the detection "
-"code. You should report these bugs to AntiCompositeNumber on "
-"%(talkopen)stheir talk page%(close)s or on %(ghopen)sGitHub%(close)s."
+"报告的问题中有一些是检测代码中的错误造成的误报。你应通过 %(talkopen)s其讨论页%(close)s 或 "
+"%(ghopen)sGitHub%(close)s 向 AntiCompositeNumber 报告这些错误。"
 
 #: templates/about.html:105
 msgid "Where's the data for my home wiki?"
-msgstr "Where's the data for my home wiki?"
+msgstr "我的主 Wiki 的数据在哪里？"
 
 #: templates/about.html:107
 msgid ""
@@ -485,28 +443,24 @@ msgid ""
 "wikis though. If you would like the report for a wiki to be created, "
 "please contact AntiCompositeNumber."
 msgstr ""
-"Unfortunately, site-level reports usually take too long to be able to "
-"generate them on the fly. The single user tool works for all Wikimedia "
-"wikis though. If you would like the report for a wiki to be created, "
-"please contact AntiCompositeNumber."
+"遗憾的是，站点级报告通常需要太长时间，无法即时生成。不过，单用户工具适用于所有 Wikimedia Wiki。如果你希望生成某个 Wiki "
+"的报告，请联系 AntiCompositeNumber。"
 
 #: templates/about.html:113
 msgid "I'd like to do something more with the data"
-msgstr "I'd like to do something more with the data"
+msgstr "我想利用这些数据做更多事情"
 
 #: templates/about.html:116
 #, python-format
 msgid ""
 "The tool has a basic REST API, documented %(apiopen)shere%(close)s. It "
 "should not be considered especially stable."
-msgstr ""
-"The tool has a basic REST API, documented %(apiopen)shere%(close)s. It "
-"should not be considered especially stable."
+msgstr "这个工具提供基础的 REST API，文档请参阅 %(apiopen)s这里%(close)s。该 API 不应被视为特别稳定。"
 
 #: templates/check_form.html:10 templates/index.html:29
 #: templates/layout.html:32
 msgid "Check a signature"
-msgstr "Check a signature"
+msgstr "检查签名"
 
 #: templates/check_form.html:14
 msgid "Wiki"
@@ -514,19 +468,19 @@ msgstr "Wiki"
 
 #: templates/check_form.html:22 templates/report_site.html:35
 msgid "Username"
-msgstr "Username"
+msgstr "用户名"
 
 #: templates/check_form.html:23
 msgid "Example"
-msgstr "Example"
+msgstr "示例"
 
 #: templates/check_form.html:31
 msgid "Get signature from database"
-msgstr "Get signature from database"
+msgstr "从数据库获取签名"
 
 #: templates/check_form.html:40
 msgid "Use this wikitext:"
-msgstr "Use this wikitext:"
+msgstr "使用此 wikitext："
 
 #: templates/check_form.html:44
 msgid "[[User:Example|Example]] ([[User talk:Example|talk]])"
@@ -534,15 +488,15 @@ msgstr "[[User:Example|Example]] ([[User talk:Example|talk]])"
 
 #: templates/check_form.html:44
 msgid "Replacement signature"
-msgstr "Replacement signature"
+msgstr "替换签名"
 
 #: templates/check_result.html:13
 msgid "Results"
-msgstr "Results"
+msgstr "结果"
 
 #: templates/check_result.html:16
 msgid "Warning"
-msgstr ""
+msgstr "警告"
 
 #: templates/check_result.html:18
 #, python-format
@@ -552,46 +506,48 @@ msgid ""
 " not be reflected.\n"
 "    "
 msgstr ""
+"\n"
+"    复制延迟较高。过去 %(lagtime)s 内所做的更改可能尚未反映。\n"
+"    "
 
 #: templates/check_result.html:24
 #, python-format
 msgid "%(username)s at %(site)s"
-msgstr "%(username)s at %(site)s"
+msgstr "%(username)s 位于 %(site)s"
 
 #: templates/check_result.html:39
 #, python-format
 msgid "%(count)s error found"
 msgid_plural "%(count)s errors found"
-msgstr[0] "%(count)s error found"
-msgstr[1] "%(count)s errors found"
+msgstr[0] "发现 %(count)s 个错误"
 
 #: templates/check_result.html:53
 msgid "All clear!"
-msgstr "All clear!"
+msgstr "一切正常！"
 
 #: templates/index.html:13
 msgid "Validates signatures against the proposed new requirements"
-msgstr "Validates signatures against the proposed new requirements"
+msgstr "根据拟议的新要求验证签名"
 
 #: templates/index.html:25
 msgid "Go"
-msgstr "Go"
+msgstr "前往"
 
 #: templates/index.html:29
 msgid "Would your signature meet the new requirements?"
-msgstr "Would your signature meet the new requirements?"
+msgstr "你的签名符合新要求吗？"
 
 #: templates/index.html:30 templates/layout.html:33
 msgid "Site-level data"
-msgstr "Site-level data"
+msgstr "站点级数据"
 
 #: templates/index.html:30
 msgid "How many users on your wiki would be impacted?"
-msgstr "How many users on your wiki would be impacted?"
+msgstr "你的 Wiki 上有多少用户会受到影响？"
 
 #: templates/layout.html:31
 msgid "Home"
-msgstr "Home"
+msgstr "首页"
 
 #: templates/layout.html:35
 msgid "API"
@@ -602,17 +558,15 @@ msgstr "API"
 msgid ""
 "This project is licensed under the %(open_link)sAGPL v3.0 or any later "
 "version%(close)s."
-msgstr ""
-"This project is licensed under the %(open_link)sAGPL v3.0 or any later "
-"version%(close)s."
+msgstr "本项目依据 %(open_link)sAGPL v3.0 或任何更高版本%(close)s 授权。"
 
 #: templates/layout.html:81
 msgid "Repository version"
-msgstr "Repository version"
+msgstr "仓库版本"
 
 #: templates/layout.html:86
 msgid "Talk page"
-msgstr "Talk page"
+msgstr "讨论页"
 
 #: templates/layout.html:90
 msgid "GitHub"
@@ -620,63 +574,47 @@ msgstr "GitHub"
 
 #: templates/report.html:2 templates/report.html:10
 msgid "Site reports"
-msgstr "Site reports"
+msgstr "站点报告"
 
 #: templates/report.html:16
 msgid ""
 "Report missing or out of date? Contact AntiCompositeNumber to run a new "
 "report."
-msgstr ""
-"Report missing or out of date? Contact AntiCompositeNumber to run a new "
-"report."
+msgstr "报告缺失或已过期？请联系 AntiCompositeNumber 运行新报告。"
 
 #: templates/report_site.html:2 templates/report_site.html:10
 msgid "Site report"
-msgstr "Site report"
+msgstr "站点报告"
 
 #: templates/report_site.html:11
 msgid "Last updated"
-msgstr "Last updated"
+msgstr "最后更新"
 
 #: templates/report_site.html:12
 msgid "Users with edits to discussion pages since"
-msgstr "Users with edits to discussion pages since"
+msgstr "自此日期起编辑过讨论页的用户"
 
 #: templates/report_site.html:13
 msgid "Summary"
-msgstr "Summary"
+msgstr "摘要"
 
 #: templates/report_site.html:17
 msgid "Error"
-msgstr "Error"
+msgstr "错误"
 
 #: templates/report_site.html:18
 msgid "Count"
-msgstr "Count"
+msgstr "数量"
 
 #: templates/report_site.html:31
 msgid "Users"
-msgstr "Users"
+msgstr "用户"
 
 #: templates/report_site.html:36
 msgid "Errors"
-msgstr "Errors"
+msgstr "错误"
 
 #: templates/report_site.html:37
 msgid "Signature"
-msgstr "Signature"
-
-#~ msgid "multi-colon-escape"
-#~ msgstr "Multiple colons escape wikilink"
-
-#~ msgid "multi-colon-escape-help"
-#~ msgstr "Wikilinks must start with no more than one colon."
-
-#~ msgid ""
-#~ "\n"
-#~ "      Warning: Replication lag is high."
-#~ " Changes made within the last "
-#~ "%(lagtime)s may not be reflected.\n"
-#~ "      "
-#~ msgstr ""
+msgstr "签名"
 
